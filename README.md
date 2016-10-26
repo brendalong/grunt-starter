@@ -70,3 +70,14 @@ module.exports = function(grunt) {
 Already have a package.json file and Gruntfile.js
 * Run `npm install` - this looks at the package.json file and installs the needed items.
 * Run `grunt`
+
+
+***********************
+So, what's up with `"use strict"`
+* Disallows global variables. (Catches missing var declarations and typos in variable names)
+* Silent failing assignments will throw error in strict mode (assigning NaN = 5;)
+* Attempts to delete undeletable properties will throw (delete Object.prototype)
+* Requires all property names in an object literal to be unique (var x = {x1: "1", x1: "2"})
+* Function parameter names must be unique (function sum (x, x) {...}) 
+* Some ES6 features require you to be in strict mode
+  
