@@ -68,6 +68,5 @@ module.exports = function(grunt) {
 ```
 ## Start From boilerplate
 Already have a package.json file and Gruntfile.js
-* Run `npm install grunt --save-dev` - creates node-modules
-* May need to `npm install matchdep --save-dev`
+* Run `npm install` - this looks at the package.json file and installs the needed items.
 * Run `grunt`
