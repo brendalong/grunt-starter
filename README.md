@@ -17,7 +17,7 @@ save it as a dependency in the package.json file.
 * `npm install jshint-stylish --save-dev`
 * `npm install grunt-contrib-watch --save-dev`
 * `npm install grunt-contrib-sass --save-dev`
-* `npm install matchdep --sav-dev`
+* `npm install matchdep --save-dev`
 
 After each install - your package.json file will update
 
