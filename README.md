@@ -7,8 +7,10 @@ cd into the lib folder
 ## Start From Scratch
 **`npm init`** - walk through the steps for creating a basic package.json file
 
-Use `npm install <pkg> --save` afterwards to install a package and
-save it as a dependency in the package.json file.
+Use `npm install <pkg> --save` OR `--save-dev`
+to install a package and add it to the package.json file.
+
+What is the difference? Save is for full functionality while save-dev is for during development.
 
 **Common packages for projects include:**
 * `npm install grunt --save-dev`
